@@ -8,4 +8,4 @@ from sysdtls import bldnum
 
 # Main functionality :
 def main():
-    print(bldnum)
+    print("- Build        :", bldnum)

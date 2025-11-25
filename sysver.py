@@ -8,4 +8,4 @@ from sysdtls import ver
 
 # main functionality :
 def main():
-    print(ver)
+    print("- Version      :", ver)

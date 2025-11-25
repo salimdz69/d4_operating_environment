@@ -8,4 +8,4 @@ from sysdtls import rlsdate
 
 # main functionality :
 def main():
-    print(rlsdate)
+    print("- Release date :", rlsdate)

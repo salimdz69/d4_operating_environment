@@ -8,4 +8,4 @@ from sysdtls import vercn
 
 # Main functionality :
 def main():
-    print(vercn)
+    print("- Code name    :", vercn)

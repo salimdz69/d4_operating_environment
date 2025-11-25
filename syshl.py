@@ -32,7 +32,7 @@ def shlinfo():
 syswlcm.main()
 shlinfo()
 while main:
-    usrin = input(">")
+    usrin = input("> ")
     if usrin == "":
         print()
     elif usrin == "syscrdt":
@@ -52,4 +52,4 @@ while main:
     elif usrin == "sysexit":
         sysexit.main()
     else:
-        print("*** ", "'",usrin,"'" ,"IS AN INVALID COMMAND/TASK ***")
+        print("***", f"'{usrin}'" + " IS AN INVALID COMMAND/TASK ***")
