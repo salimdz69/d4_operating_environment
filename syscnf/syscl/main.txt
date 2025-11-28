@@ -1,0 +1,6 @@
+sysinfo
+sysver
+sysvcn
+sysbldn
+sysrlsd
+sysext

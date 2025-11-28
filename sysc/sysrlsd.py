@@ -1,0 +1,16 @@
+# | 'sysrlsd' |
+# 'sysrlsd' is a built-in command for the 'd4' operating environment to show the system release date of 'd4'.
+# 'sysrlsd' comes under d4's MIT licnese and it's totally free to use and modify, use it and it's source code wisely.
+# 'sysrlsd' is in a stable development state, but expect changes in further updates.
+
+# Importing required libraries :
+import os # > used to import system details
+
+# Importing system details :
+sysdtls = os.path.join('syscnf', 'sysdtl', 'main.txt')
+
+# main functionality :
+def main():
+    with open(sysdtls, 'r') as sysdtl: # > opens 'sysdtls' as 'sysdtl'
+        dtl = sysdtl.readlines() # > list every detail according to it's line
+    print(dtl[5]) # > prints line 5 from main.txt (system's release date)
