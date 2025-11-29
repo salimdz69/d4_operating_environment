@@ -13,6 +13,6 @@ sysdtls = os.path.join('syscnf', 'sysdtl', 'main.txt')
 def main():
     with open(sysdtls, 'r') as sysdtl: # > opens 'sysdtls' as 'sysdtl'
             dtl = sysdtl.readlines() # > list every detail according to it's line
-    print("> | 'd4' Operating enviromment |")
+    print("> | 'd4' Operating environment |")
     print(">", dtl[0]) # > prints line 0 from main.txt (system's small description)
     print("> Run 'sysinfo' to see information of d4")
