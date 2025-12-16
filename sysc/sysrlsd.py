@@ -4,13 +4,10 @@
 # 'sysrlsd' is in a stable development state, but expect changes in further updates.
 
 # Importing required libraries :
-import os # > used to import system details
+import getinfo # > used to import system details
 
-# Importing system details :
-sysdtls = os.path.join('syscnf', 'sysdtl', 'main.txt')
 
-# main functionality :
+# Main functionality :
 def main():
-    with open(sysdtls, 'r') as sysdtl: # > opens 'sysdtls' as 'sysdtl'
-        dtl = sysdtl.readlines() # > list every detail according to it's line
-    print(dtl[5]) # > prints line 5 from main.txt (system's release date)
+    print(getinfo.get_info(5))
+
